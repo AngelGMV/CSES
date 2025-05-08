@@ -5,15 +5,23 @@ using namespace std;
 
 int main() {
     string s;
-    unordered_map<char, int> mapa;
+    char act = 0;
+    int aux=0, max = 0;
     cin >> s;
-    for (char c : s) {
-        mapa[c]++;
+    for (const char c : s) {
+        if (act==0) {
+            act = c;
+        }
+        if (act==c) {
+            aux++;
+        }else {
+            act=c;
+            aux=1;
+        }
+        if (aux>max) {
+            max=aux;
+        }
     }
-    int max_valor = INT_MIN;
-    for (auto& par : mapa) {
-        max_valor = max(max_valor, par.second);
-    }
-    cout<<max_valor<<endl;
+    cout<<max<<endl;
 
 }
