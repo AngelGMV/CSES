@@ -67,6 +67,12 @@ build CMakeFiles/CSES.dir/IntroductoryProblems/MissingNumber.cpp.obj: CXX_COMPIL
   OBJECT_DIR = CMakeFiles\CSES.dir
   OBJECT_FILE_DIR = CMakeFiles\CSES.dir\IntroductoryProblems
 
+build CMakeFiles/CSES.dir/IntroductoryProblems/Repetitions.cpp.obj: CXX_COMPILER__CSES_unscanned_Debug C$:/Users/PC/CLionProjects/CSES/IntroductoryProblems/Repetitions.cpp || cmake_object_order_depends_target_CSES
+  DEP_FILE = CMakeFiles\CSES.dir\IntroductoryProblems\Repetitions.cpp.obj.d
+  FLAGS = -g -std=gnu++20 -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\CSES.dir
+  OBJECT_FILE_DIR = CMakeFiles\CSES.dir\IntroductoryProblems
+
 
 # =============================================================================
 # Link build statements for EXECUTABLE target CSES
@@ -75,7 +81,7 @@ build CMakeFiles/CSES.dir/IntroductoryProblems/MissingNumber.cpp.obj: CXX_COMPIL
 #############################################
 # Link the executable CSES.exe
 
-build CSES.exe: CXX_EXECUTABLE_LINKER__CSES_Debug CMakeFiles/CSES.dir/main.cpp.obj CMakeFiles/CSES.dir/IntroductoryProblems/WeirdAlgorithm.cpp.obj CMakeFiles/CSES.dir/IntroductoryProblems/MissingNumber.cpp.obj
+build CSES.exe: CXX_EXECUTABLE_LINKER__CSES_Debug CMakeFiles/CSES.dir/main.cpp.obj CMakeFiles/CSES.dir/IntroductoryProblems/WeirdAlgorithm.cpp.obj CMakeFiles/CSES.dir/IntroductoryProblems/MissingNumber.cpp.obj CMakeFiles/CSES.dir/IntroductoryProblems/Repetitions.cpp.obj
   FLAGS = -g
   LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
   OBJECT_DIR = CMakeFiles\CSES.dir
