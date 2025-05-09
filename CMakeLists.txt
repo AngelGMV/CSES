@@ -6,4 +6,5 @@ set(CMAKE_CXX_STANDARD 20)
 add_executable(CSES main.cpp
         IntroductoryProblems/WeirdAlgorithm.cpp
         IntroductoryProblems/MissingNumber.cpp
-        IntroductoryProblems/Repetitions.cpp)
+        IntroductoryProblems/Repetitions.cpp
+        IntroductoryProblems/Permutations.cpp)
