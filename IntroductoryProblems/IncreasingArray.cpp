@@ -12,7 +12,16 @@ using vi = vector<int>;
 #define ENDL '\n'
 
 signed main() {
-  cin.tie(0)->sync_with_stdio(0);
+    cin.tie(0)->sync_with_stdio(0);
+
+    ll n, actual=0, anterior=0, count=0;
+    cin>>n;
+
+    FOR(i, 0, n) {
+        cin>>actual;
+        actual<anterior ? (count += anterior-actual) : (anterior = actual);
+    }
+    cout<<count<<ENDL;
 
   return 0;
 }
