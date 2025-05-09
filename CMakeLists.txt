@@ -7,4 +7,5 @@ add_executable(CSES main.cpp
         IntroductoryProblems/WeirdAlgorithm.cpp
         IntroductoryProblems/MissingNumber.cpp
         IntroductoryProblems/Repetitions.cpp
-        IntroductoryProblems/Permutations.cpp)
+        IntroductoryProblems/Permutations.cpp
+        IntroductoryProblems/TwoSets.cpp)
