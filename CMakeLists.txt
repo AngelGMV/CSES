@@ -10,4 +10,5 @@ add_executable(CSES main.cpp
         IntroductoryProblems/Permutations.cpp
         IntroductoryProblems/TwoSets.cpp
         IntroductoryProblems/BitString.cpp
-        IntroductoryProblems/TrailingZeros.cpp)
+        IntroductoryProblems/TrailingZeros.cpp
+        IntroductoryProblems/CoinPiles.cpp)
