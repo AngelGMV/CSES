@@ -12,4 +12,5 @@ add_executable(CSES main.cpp
         IntroductoryProblems/BitString.cpp
         IntroductoryProblems/TrailingZeros.cpp
         IntroductoryProblems/CoinPiles.cpp
-        IntroductoryProblems/PalindromeReorder.cpp)
+        IntroductoryProblems/PalindromeReorder.cpp
+        IntroductoryProblems/GrayCode.cpp)
